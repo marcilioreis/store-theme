@@ -1,0 +1,65 @@
+{
+  "store.custom#landing-cyber-monday": {
+    "blocks": [
+      "image#cyber",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#cyber": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 5,
+        "queryField": "Jumper EZbook",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#landing"
+    ]
+  },
+  "search-result-layout.desktop#landing": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "showMore"
+    }
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter2",
+      "flex-layout.col#search"
+    ]
+  },
+  "flex-layout.col#filter2": {
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search": {
+    "children": [
+      "search-content"
+    ]
+  }
+}
