@@ -110,8 +110,6 @@
     },
     "children": [
       "flex-layout.row#product-name",
-      "countdown.title",
-      "countdown",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
@@ -120,7 +118,6 @@
       "product-identifier.product",
       "sku-selector",
       "product-quantity",
-      "trainingpartnerfr.custom-app-example:total-items-available#estoque",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
@@ -136,13 +133,6 @@
     "children": [
       "vtex.store-components:product-name"
     ]
-  },
-  "trainingpartnerfr.custom-app-example:total-items-available#estoque": {
-    "props": {
-      "message": "{totalItemsAvailable} product available",
-      "pluralMessage": "{totalItemsAvailable} products available",
-      "emptyMessage": "Product out of stock"
-    }
   },
   "sku-selector": {
     "props": {
